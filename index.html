@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>FlavorVerse | Delicious Recipes</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER & NAVIGATION with SEARCH BAR -->
+  <header>
+    <div class="container nav-container">
+      <div class="logo">
+        <a href="index.html">🍽️ FlavorVerse</a>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="recipe1.html">Margherita Pizza</a></li>
+          <li><a href="recipe2.html">Veggie Buddha Bowl</a></li>
+          <li><a href="recipe3.html">Mushroom Pasta</a></li>
+          <li><a href="recipe4.html">Spicy Tofu Tacos</a></li>
+          <li><a href="recipe5.html">Berry Chia Pudding</a></li>
+        </ul>
+      </nav>
+      
+      <div class="search-wrapper">
+        <form class="search-form" action="#" method="get">
+          <input type="text" placeholder="🔍 Search recipes..." class="search-input">
+          <button type="submit" class="search-btn">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="container hero-content">
+        <h1>Delicious Recipes <span>for every craving</span></h1>
+        <p>Handpicked dishes from around the world, step‑by‑step guides, and culinary inspiration — pure cooking joy awaits.</p>
+        <a href="#featured" class="btn btn-primary">Explore Recipes ↓</a>
+      </div>
+    </section>
+
+    <!-- FEATURED RECIPES SECTION -->
+    <section id="featured" class="featured-section">
+      <div class="container">
+        <h2 class="section-title">✨ Featured Creations</h2>
+        <div class="recipes-grid">
+          <div class="recipe-card">
+            <div class="card-img">
+              <img src="images/pizza.jpeg" alt="Margherita Pizza">
+            </div>
+            <div class="card-content">
+              <span class="difficulty easy">Easy</span>
+              <h3>Classic Margherita Pizza</h3>
+              <p>Fresh basil, mozzarella, and tangy tomato sauce on a crispy crust.</p>
+              <a href="recipe1.html" class="btn-card">View Recipe →</a>
+            </div>
+          </div>
+          <div class="recipe-card">
+            <div class="card-img">
+              <img src="images/bowl.jpg" alt="Veggie Buddha Bowl">
+            </div>
+            <div class="card-content">
+              <span class="difficulty easy">Easy</span>
+              <h3>Veggie Buddha Bowl</h3>
+              <p>Nutrient-packed quinoa, roasted veggies, creamy tahini drizzle.</p>
+              <a href="recipe2.html" class="btn-card">View Recipe →</a>
+            </div>
+          </div>
+          <div class="recipe-card">
+            <div class="card-img">
+              <img src="images/pasta.jpg" alt="Creamy Mushroom Pasta">
+            </div>
+            <div class="card-content">
+              <span class="difficulty medium">Medium</span>
+              <h3>Creamy Mushroom Pasta</h3>
+              <p>Rich, garlicky cream sauce with wild mushrooms and parmesan.</p>
+              <a href="recipe3.html" class="btn-card">View Recipe →</a>
+            </div>
+          </div>
+          <div class="recipe-card">
+            <div class="card-img">
+              <img src="images/tacos.jpg" alt="Spicy Tofu Tacos">
+            </div>
+            <div class="card-content">
+              <span class="difficulty medium">Medium</span>
+              <h3>Spicy Tofu Tacos</h3>
+              <p>Crumbled tofu with chipotle slaw, avocado crema & corn tortillas.</p>
+              <a href="recipe4.html" class="btn-card">View Recipe →</a>
+            </div>
+          </div>
+          <div class="recipe-card">
+            <div class="card-img">
+              <img src="images/pudding.jpeg" alt="Berry Chia Pudding">
+            </div>
+            <div class="card-content">
+              <span class="difficulty easy">Easy</span>
+              <h3>Berry Chia Pudding</h3>
+              <p>Overnight delight: coconut milk, mixed berries, crunchy granola.</p>
+              <a href="recipe5.html" class="btn-card">View Recipe →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORIES SECTION -->
+    <section class="categories-section">
+      <div class="container">
+        <h2 class="section-title">🍴 Explore by Category</h2>
+        <div class="categories-flex">
+          <div class="cat-card">🥗 Veg</div>
+          <div class="cat-card">🌱 Vegan Friendly</div>
+          <div class="cat-card">🍝 Pasta Love</div>
+          <div class="cat-card">🌮 Tacos & Bowls</div>
+          <div class="cat-card">🍰 Desserts</div>
+          <div class="cat-card">🔥 Quick Meals</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRODUCTION SECTION -->
+    <section class="intro-text-section">
+      <div class="container">
+        <div class="intro-box">
+          <h3>Welcome to FlavorVerse</h3>
+          <p>We believe everyone can cook restaurant-quality meals at home. From quick weeknight dinners to impressive weekend feasts, our tested recipes come with clear instructions, prep times, and difficulty levels. No complicated jargon — just delicious food.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-content">
+      <p>© 2025 FlavorVerse</p>
+    </div>
+  </footer>
+</body>
+</html>
